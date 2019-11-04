@@ -1,7 +1,5 @@
 const puppeteer = require("puppeteer");
 
-// Refresh = #ctl00_DeviceContextControl1_RefreshDeviceDataButton
-
 (async () => {
   const browser = await puppeteer.launch({
     headless: false //True setzten für wirklich headless ;o)
